@@ -1,15 +1,15 @@
 var status1 = false;
 
 function setup() {
-    canvas = createCanvas(380, 380);
+    canvas = createCanvas(380, 425);
     canvas.center();
     video = createCapture(VIDEO);
-    video.size(380, 380);
+    video.size(380, 425);
     video.hide()
 }
 
 function draw() {
-    image(vid, 0, 0, 700, 420);
+    image(video, 0, 0, 700, 420);
 }
 
 function start() {
